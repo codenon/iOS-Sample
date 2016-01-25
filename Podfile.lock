@@ -1,0 +1,154 @@
+PODS:
+  - ActionSheetPicker-3.0 (1.2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CommonsLibrary (0.1.0):
+    - ActionSheetPicker-3.0 (= 1.2.0)
+    - AFNetworking (= 2.6.3)
+    - CustomIOSAlertView (= 0.9.3)
+    - ECSlidingViewController (= 2.0.3)
+    - IQKeyboardManager (= 3.2.1.2)
+    - JSONModel (= 1.2.0)
+    - MagicalRecord (= 2.2)
+    - MBProgressHUD (= 0.9.2)
+    - MJRefresh (= 3.1.0)
+    - OBShapedButton (= 1.0.2)
+    - POP+MCAnimate (= 2.0.1)
+    - RSBarcodes (= 0.1)
+    - SDWebImage (= 3.7.1)
+    - SHUIKitBlocks (= 2.3.2)
+    - SVProgressHUD (= 1.1.3)
+    - SVPullToRefresh (= 0.4.1)
+    - TPKeyboardAvoiding (= 1.2.4)
+  - CustomIOSAlertView (0.9.3)
+  - ECSlidingViewController (2.0.3)
+  - IQKeyboardManager (3.2.1.2)
+  - JSONModel (1.2.0)
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core (= 2.2)
+  - MagicalRecord/Core (2.2)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - OBShapedButton (1.0.2)
+  - pop (1.0.8)
+  - POP+MCAnimate (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Animations (= 2.0.1)
+    - POP+MCAnimate/Group (= 2.0.1)
+    - POP+MCAnimate/Internal (= 2.0.1)
+    - POP+MCAnimate/Shorthand (= 2.0.1)
+    - POP+MCAnimate/Velocity (= 2.0.1)
+  - POP+MCAnimate/Animations (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Group
+    - POP+MCAnimate/Internal
+    - POP+MCAnimate/Shorthand
+    - POP+MCAnimate/Velocity
+  - POP+MCAnimate/Group (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Internal (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Shorthand (2.0.1):
+    - pop (~> 1.0)
+  - POP+MCAnimate/Velocity (2.0.1):
+    - pop (~> 1.0)
+    - POP+MCAnimate/Internal
+  - RSBarcodes (0.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - SHActionSheetBlocks (2.3.4)
+  - SHAlertViewBlocks (1.2.1)
+  - SHBarButtonItemBlocks (1.2.1)
+  - SHControlBlocks (1.2.1)
+  - SHGestureRecognizerBlocks (1.1.1)
+  - SHNavigationControllerBlocks (2.1.1)
+  - SHObjectUserInfo (1.2.2)
+  - SHPopoverControllerBlocks (1.2.1)
+  - SHSegueBlocks (1.2.3):
+    - SHObjectUserInfo (~> 1.2.0)
+  - SHTabBarControllerBlocks (2.0.1)
+  - SHTextFieldBlocks (1.1.1)
+  - SHTextViewBlocks (1.1.1)
+  - SHTransitionBlocks (1.0.1)
+  - SHUIKitBlocks (2.3.2):
+    - SHActionSheetBlocks (~> 2.3.1)
+    - SHAlertViewBlocks (~> 1.2.1)
+    - SHBarButtonItemBlocks (~> 1.2.1)
+    - SHControlBlocks (~> 1.2.1)
+    - SHGestureRecognizerBlocks (~> 1.1.1)
+    - SHNavigationControllerBlocks (~> 2.1.1)
+    - SHPopoverControllerBlocks (~> 1.2.1)
+    - SHSegueBlocks (~> 1.2.3)
+    - SHTabBarControllerBlocks (~> 2.0.1)
+    - SHTextFieldBlocks (~> 1.1.1)
+    - SHTextViewBlocks (~> 1.1.1)
+    - SHTransitionBlocks (~> 1.0.1)
+    - SHWebViewBlocks (~> 1.3.1)
+  - SHWebViewBlocks (1.3.1)
+  - SVProgressHUD (1.1.3)
+  - SVPullToRefresh (0.4.1)
+  - TPKeyboardAvoiding (1.2.4)
+
+DEPENDENCIES:
+  - CommonsLibrary (from `/Users/negwiki/baigu/git.oschina/bg_i_comm`)
+
+EXTERNAL SOURCES:
+  CommonsLibrary:
+    :path: /Users/negwiki/baigu/git.oschina/bg_i_comm
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 6e0274e4298a81fc44516c238fe9df815084310f
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CommonsLibrary: 07f631c678dc50dbc2a32ee6ec20bdbc885cc47e
+  CustomIOSAlertView: 94d2401e34fcfb0ac0134679d6947f5e251b0446
+  ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
+  IQKeyboardManager: 4adcd7cc9c17440a7cb74755f6f6c8389919c6bf
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  MagicalRecord: 2dc87179ae7c1f2a274442624ec65a07d4357a6f
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  OBShapedButton: ae2ae40dd98b934d4f76be1984c49db73893ada9
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  POP+MCAnimate: a99e209148c602512de487f1160a44bf78572024
+  RSBarcodes: 96ad32377a0142aa9dcc547cbc60b8e9bb20b2fb
+  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
+  SHActionSheetBlocks: 884fb3819dbe6760026e2b9976365e72807632a8
+  SHAlertViewBlocks: cf5b26019efa88190e5ce1a46878a99b545c1a62
+  SHBarButtonItemBlocks: 57161a4a919d33222a7bd493e0d79d0a1067af2b
+  SHControlBlocks: 13569626ba0b019a60e355204b8c18aa753db30d
+  SHGestureRecognizerBlocks: 20419fac0f8dcec8e2a339c078df1993aeae07e4
+  SHNavigationControllerBlocks: 5c9a1d5c1fe2c32ebb187f645b8299783494a6ef
+  SHObjectUserInfo: 2709843bc236dd9a2c0920f8e8894acceb9e7f1e
+  SHPopoverControllerBlocks: 7ea7863a889c471c74b97ada3adc0a19bd2bd592
+  SHSegueBlocks: e8bc70a937b15a8e2666ac645d447db09376a51e
+  SHTabBarControllerBlocks: 28a9dec588184651f43afabd645873cf9bc9d3aa
+  SHTextFieldBlocks: 5ecaaff2051371e86ae4dffb7a6eab37b80aa56d
+  SHTextViewBlocks: 8f16483f410b42162b70cf9d3846ba419f603955
+  SHTransitionBlocks: 3cbf25e5e67b4cb5702d857aa1c8aa899bfcb580
+  SHUIKitBlocks: 39ef0bb1d0181dacca85fbe9a48707fbf35a5667
+  SHWebViewBlocks: 4895ffa641de02929936f6a2655d13c388afe06c
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  TPKeyboardAvoiding: 0a40dfbb0af7c8bdae1dd457496dccfd217d85f6
+
+COCOAPODS: 0.39.0
