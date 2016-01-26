@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0827AD691C57123D00F51461 /* libBPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD671C57123D00F51461 /* libBPush.a */; };
+		0827AD6A1C57123D00F51461 /* test.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0827AD681C57123D00F51461 /* test.caf */; };
+		0827AD6C1C57127400F51461 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD6B1C57127400F51461 /* Foundation.framework */; };
+		0827AD6E1C57129100F51461 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD6D1C57129100F51461 /* CoreTelephony.framework */; };
+		0827AD701C5712C100F51461 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD6F1C5712C100F51461 /* SystemConfiguration.framework */; };
+		0827AD721C57142300F51461 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD711C57142300F51461 /* libz.1.2.5.tbd */; };
+		0827AD771C57506600F51461 /* NONBPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0827AD751C57506600F51461 /* NONBPushController.m */; };
+		0827AD781C57506600F51461 /* NONBPushController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0827AD761C57506600F51461 /* NONBPushController.xib */; };
 		08425C2E1C54D25A0007BD6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08425C2C1C54D25A0007BD6B /* LaunchScreen.storyboard */; };
 		08425C2F1C54D25A0007BD6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08425C2D1C54D25A0007BD6B /* Main.storyboard */; };
 		08425C361C54D2950007BD6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08425C351C54D2950007BD6B /* Assets.xcassets */; };
 		08425C3F1C54D2A20007BD6B /* NONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08425C391C54D2A20007BD6B /* NONAppDelegate.m */; };
 		08425C401C54D2A20007BD6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08425C3A1C54D2A20007BD6B /* main.m */; };
-		08425C431C54D33A0007BD6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08425C421C54D33A0007BD6B /* Info.plist */; };
 		0889D7B81C55C8470098FB02 /* NONLifeCycleAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0889D7B71C55C8470098FB02 /* NONLifeCycleAppController.m */; };
 		0889D7BA1C55D3010098FB02 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 0889D7B91C55D3010098FB02 /* smiley.png */; };
 		0889D7BD1C561E7B0098FB02 /* NONLifeCycleVCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0889D7BC1C561E7B0098FB02 /* NONLifeCycleVCController.m */; };
@@ -26,6 +33,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0827AD661C57123D00F51461 /* BPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPush.h; sourceTree = "<group>"; };
+		0827AD671C57123D00F51461 /* libBPush.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBPush.a; sourceTree = "<group>"; };
+		0827AD681C57123D00F51461 /* test.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.caf; sourceTree = "<group>"; };
+		0827AD6B1C57127400F51461 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0827AD6D1C57129100F51461 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0827AD6F1C5712C100F51461 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0827AD711C57142300F51461 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		0827AD741C57506600F51461 /* NONBPushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NONBPushController.h; sourceTree = "<group>"; };
+		0827AD751C57506600F51461 /* NONBPushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NONBPushController.m; sourceTree = "<group>"; };
+		0827AD761C57506600F51461 /* NONBPushController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NONBPushController.xib; sourceTree = "<group>"; };
 		08425C021C54AD190007BD6B /* iOS-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08425C2C1C54D25A0007BD6B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08425C2D1C54D25A0007BD6B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0827AD721C57142300F51461 /* libz.1.2.5.tbd in Frameworks */,
+				0827AD701C5712C100F51461 /* SystemConfiguration.framework in Frameworks */,
+				0827AD6E1C57129100F51461 /* CoreTelephony.framework in Frameworks */,
+				0827AD6C1C57127400F51461 /* Foundation.framework in Frameworks */,
+				0827AD691C57123D00F51461 /* libBPush.a in Frameworks */,
 				CB52037536923C8DF7223F61 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,6 +86,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0827AD651C57123D00F51461 /* LibBPush */ = {
+			isa = PBXGroup;
+			children = (
+				0827AD661C57123D00F51461 /* BPush.h */,
+				0827AD671C57123D00F51461 /* libBPush.a */,
+				0827AD681C57123D00F51461 /* test.caf */,
+			);
+			path = LibBPush;
+			sourceTree = "<group>";
+		};
+		0827AD731C57506600F51461 /* BPush */ = {
+			isa = PBXGroup;
+			children = (
+				0827AD741C57506600F51461 /* NONBPushController.h */,
+				0827AD751C57506600F51461 /* NONBPushController.m */,
+				0827AD761C57506600F51461 /* NONBPushController.xib */,
+			);
+			path = BPush;
+			sourceTree = "<group>";
+		};
 		08425BF91C54AD190007BD6B = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +156,7 @@
 		08425C281C54CF430007BD6B /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				0827AD651C57123D00F51461 /* LibBPush */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -121,10 +164,11 @@
 		08425C2A1C54CFDE0007BD6B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0889D7B21C55C7CC0098FB02 /* LifeCycle */,
 				08425C371C54D2A20007BD6B /* AppDelegate */,
+				0827AD731C57506600F51461 /* BPush */,
 				08425C3B1C54D2A20007BD6B /* Commons */,
 				089C7B7D1C550CCD0015D074 /* Home */,
+				0889D7B21C55C7CC0098FB02 /* LifeCycle */,
 				08425C3C1C54D2A20007BD6B /* Macro */,
 			);
 			path = Classes;
@@ -209,6 +253,10 @@
 		CB979AD5EA0F82730388B86B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0827AD711C57142300F51461 /* libz.1.2.5.tbd */,
+				0827AD6F1C5712C100F51461 /* SystemConfiguration.framework */,
+				0827AD6D1C57129100F51461 /* CoreTelephony.framework */,
+				0827AD6B1C57127400F51461 /* Foundation.framework */,
 				F818D977208AA59E626253D4 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -250,6 +298,11 @@
 					08425C011C54AD190007BD6B = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = GQ6U4932HL;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -276,7 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08425C431C54D33A0007BD6B /* Info.plist in Resources */,
+				0827AD781C57506600F51461 /* NONBPushController.xib in Resources */,
 				0889D7DF1C5660DF0098FB02 /* ios-uiviewcontroller-lifecycle4.jpg in Resources */,
 				08425C2E1C54D25A0007BD6B /* LaunchScreen.storyboard in Resources */,
 				0889D7DD1C5660DF0098FB02 /* ios-uiviewcontroller-lifecycle2.png in Resources */,
@@ -284,6 +337,7 @@
 				08425C2F1C54D25A0007BD6B /* Main.storyboard in Resources */,
 				0889D7BA1C55D3010098FB02 /* smiley.png in Resources */,
 				08425C361C54D2950007BD6B /* Assets.xcassets in Resources */,
+				0827AD6A1C57123D00F51461 /* test.caf in Resources */,
 				0889D7DC1C5660DF0098FB02 /* ios-uiviewcontroller-lifecycle.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0827AD771C57506600F51461 /* NONBPushController.m in Sources */,
 				089C7B801C550D050015D074 /* NONHomeTableViewController.m in Sources */,
 				0889D7BD1C561E7B0098FB02 /* NONLifeCycleVCController.m in Sources */,
 				08425C401C54D2A20007BD6B /* main.m in Sources */,
@@ -442,10 +497,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iOS-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS-Sample/Vendors/LibBPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.conon.ios.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -456,10 +517,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iOS-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS-Sample/Vendors/LibBPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.conon.ios.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

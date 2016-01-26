@@ -6,13 +6,14 @@
 //  Copyright © 2016年 negwiki. All rights reserved.
 //
 
+#import "NONBPushController.h"
 #import "NONHomeItem.h"
 #import "NONHomeTableViewController.h"
 #import "NONLifeCycleAppController.h"
 #import "NONLifeCycleVCController.h"
 
 static NSString *const SampleGroup00Title = @"Life Cycle";
-static NSString *const SampleGroup01Title = @"Sample 01";
+static NSString *const SampleGroup01Title = @"Third Party";
 
 @interface NONHomeTableViewController ()
 
@@ -42,9 +43,9 @@ static NSString *const SampleGroup01Title = @"Sample 01";
 
   NONHomeItem *group1 = [[NONHomeItem alloc] init];
   group1.header = SampleGroup01Title;
-  group1.titles = @[ @"test", @"test", @"test" ];
+  group1.titles = @[ @"Baidu Push", @"test", @"test" ];
   group1.vcClass = @[
-    [NONLifeCycleVCController class],
+    [NONBPushController class],
     [NONLifeCycleVCController class],
     [NONLifeCycleVCController class]
   ];
