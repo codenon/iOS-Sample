@@ -1,4 +1,5 @@
 PODS:
+  - ActionKit (1.0)
   - ActionSheetPicker-3.0 (1.2.0)
   - AFNetworking (2.6.3):
     - AFNetworking/NSURLConnection (= 2.6.3)
@@ -21,61 +22,75 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - Alamofire (3.4.0)
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (2.3.0):
+    - CocoaLumberjack/Extensions
   - CommonsLibrary (0.1.0):
+    - ActionKit (= 1.0)
     - ActionSheetPicker-3.0 (= 1.2.0)
     - AFNetworking (= 2.6.3)
+    - Alamofire (= 3.4.0)
+    - CocoaLumberjack (= 2.3.0)
+    - CocoaLumberjack/Swift
     - CustomIOSAlertView (= 0.9.3)
     - ECSlidingViewController (= 2.0.3)
     - IQKeyboardManager (= 3.2.1.2)
+    - JCAlertView
     - JSONModel (= 1.2.0)
-    - MagicalRecord (= 2.2)
+    - MagicalRecord (= 2.3.2)
     - MBProgressHUD (= 0.9.2)
     - MJRefresh (= 3.1.0)
+    - MWPhotoBrowser
+    - ObjectMapper (= 1.3.0)
     - OBShapedButton (= 1.0.2)
-    - POP+MCAnimate (= 2.0.1)
-    - RSBarcodes (= 0.1)
-    - SDWebImage (= 3.7.1)
+    - PKHUD
+    - RMDateSelectionViewController (= 2.0.3)
+    - RSBarcodes (= 0.1.4)
+    - SDWebImage (= 3.7.6)
     - SHUIKitBlocks (= 2.3.2)
+    - SlideMenuControllerSwift
     - SVProgressHUD (= 1.1.3)
     - SVPullToRefresh (= 0.4.1)
+    - SwiftHEXColors
+    - SwiftyJSON (= 2.3.2)
+    - THCalendarDatePicker (= 1.2.7)
     - TPKeyboardAvoiding (= 1.2.4)
+    - XCGLogger (= 3.3)
   - CustomIOSAlertView (0.9.3)
+  - DACircularProgress (2.3.1)
   - ECSlidingViewController (2.0.3)
   - IQKeyboardManager (3.2.1.2)
+  - JCAlertView (1.1.5)
   - JSONModel (1.2.0)
-  - MagicalRecord (2.2):
-    - MagicalRecord/Core (= 2.2)
-  - MagicalRecord/Core (2.2)
+  - KNSemiModalViewController_hons82 (0.4.4)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
   - MBProgressHUD (0.9.2)
   - MJRefresh (3.1.0)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - ObjectMapper (1.3.0)
   - OBShapedButton (1.0.2)
-  - pop (1.0.8)
-  - POP+MCAnimate (2.0.1):
-    - pop (~> 1.0)
-    - POP+MCAnimate/Animations (= 2.0.1)
-    - POP+MCAnimate/Group (= 2.0.1)
-    - POP+MCAnimate/Internal (= 2.0.1)
-    - POP+MCAnimate/Shorthand (= 2.0.1)
-    - POP+MCAnimate/Velocity (= 2.0.1)
-  - POP+MCAnimate/Animations (2.0.1):
-    - pop (~> 1.0)
-    - POP+MCAnimate/Group
-    - POP+MCAnimate/Internal
-    - POP+MCAnimate/Shorthand
-    - POP+MCAnimate/Velocity
-  - POP+MCAnimate/Group (2.0.1):
-    - pop (~> 1.0)
-  - POP+MCAnimate/Internal (2.0.1):
-    - pop (~> 1.0)
-  - POP+MCAnimate/Shorthand (2.0.1):
-    - pop (~> 1.0)
-  - POP+MCAnimate/Velocity (2.0.1):
-    - pop (~> 1.0)
-    - POP+MCAnimate/Internal
-  - RSBarcodes (0.1)
-  - SDWebImage (3.7.1):
-    - SDWebImage/Core (= 3.7.1)
-  - SDWebImage/Core (3.7.1)
+  - PKHUD (3.1.0)
+  - PureLayout (3.0.1)
+  - RMActionController (1.0.5)
+  - RMDateSelectionViewController (2.0.3):
+    - RMActionController (~> 1.0.5)
+  - RSBarcodes (0.1.4)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
   - SHActionSheetBlocks (2.3.4)
   - SHAlertViewBlocks (1.2.1)
   - SHBarButtonItemBlocks (1.2.1)
@@ -105,33 +120,50 @@ PODS:
     - SHTransitionBlocks (~> 1.0.1)
     - SHWebViewBlocks (~> 1.3.1)
   - SHWebViewBlocks (1.3.1)
+  - SlideMenuControllerSwift (2.2.0)
   - SVProgressHUD (1.1.3)
   - SVPullToRefresh (0.4.1)
+  - SwiftHEXColors (1.0.4)
+  - SwiftyJSON (2.3.2)
+  - THCalendarDatePicker (1.2.7):
+    - KNSemiModalViewController_hons82 (~> 0.4.4)
   - TPKeyboardAvoiding (1.2.4)
+  - XCGLogger (3.3)
 
 DEPENDENCIES:
   - CommonsLibrary (from `/Users/negwiki/baigu/git.oschina/bg_i_comm`)
+  - PureLayout (= 3.0.1)
 
 EXTERNAL SOURCES:
   CommonsLibrary:
     :path: /Users/negwiki/baigu/git.oschina/bg_i_comm
 
 SPEC CHECKSUMS:
+  ActionKit: 6c45e3d92252dd34b18e7c3d8e9f811ee52558b1
   ActionSheetPicker-3.0: 6e0274e4298a81fc44516c238fe9df815084310f
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  CommonsLibrary: 07f631c678dc50dbc2a32ee6ec20bdbc885cc47e
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  CommonsLibrary: 72d1eda58acad31e01cd53db201dd554b9cf1876
   CustomIOSAlertView: 94d2401e34fcfb0ac0134679d6947f5e251b0446
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
   IQKeyboardManager: 4adcd7cc9c17440a7cb74755f6f6c8389919c6bf
+  JCAlertView: c65a7b298b8b497b3db783d82f719b88f4914869
   JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
-  MagicalRecord: 2dc87179ae7c1f2a274442624ec65a07d4357a6f
+  KNSemiModalViewController_hons82: 22aead5ef5d8ca749bc1babb43fa7d6f14b030a3
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  ObjectMapper: 4eb08a726e9791a93b2632049951b56a7c17e471
   OBShapedButton: ae2ae40dd98b934d4f76be1984c49db73893ada9
-  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
-  POP+MCAnimate: a99e209148c602512de487f1160a44bf78572024
-  RSBarcodes: 96ad32377a0142aa9dcc547cbc60b8e9bb20b2fb
-  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
+  PKHUD: 4167eccdb1b3a892fd80ce2b51cb6ba412a889ab
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  RMActionController: b83653e7452ed51492094d65dc82151c36443c03
+  RMDateSelectionViewController: 354a0f1fe40bac01054528b7a8735f2973bbd813
+  RSBarcodes: 6b062b5aba3e75a5e889b2465ef1bb256215fbd0
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SHActionSheetBlocks: 884fb3819dbe6760026e2b9976365e72807632a8
   SHAlertViewBlocks: cf5b26019efa88190e5ce1a46878a99b545c1a62
   SHBarButtonItemBlocks: 57161a4a919d33222a7bd493e0d79d0a1067af2b
@@ -147,8 +179,15 @@ SPEC CHECKSUMS:
   SHTransitionBlocks: 3cbf25e5e67b4cb5702d857aa1c8aa899bfcb580
   SHUIKitBlocks: 39ef0bb1d0181dacca85fbe9a48707fbf35a5667
   SHWebViewBlocks: 4895ffa641de02929936f6a2655d13c388afe06c
+  SlideMenuControllerSwift: 16dac00b1aaad153e64fffb5d6969ab31ad88372
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  SwiftHEXColors: b0ecc7bd83a1aa2e1956f9ba51f55ebb2bcf86ef
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  THCalendarDatePicker: a3c3bea65eaf0fdd7044ff5d4886056dc72164fd
   TPKeyboardAvoiding: 0a40dfbb0af7c8bdae1dd457496dccfd217d85f6
+  XCGLogger: d6e196e78940ff6daab17d6917107876f973fa31
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 205d4184732dd752766656c8cab51c8ce5ce0577
+
+COCOAPODS: 1.0.0

@@ -11,6 +11,8 @@
 #import "NONHomeTableViewController.h"
 #import "NONLifeCycleAppController.h"
 #import "NONLifeCycleVCController.h"
+#import "NONLocationMainViewController.h"
+#import "NONAMap2DMainViewController.h"
 
 static NSString *const SampleGroup00Title = @"Life Cycle";
 static NSString *const SampleGroup01Title = @"Third Party";
@@ -43,11 +45,11 @@ static NSString *const SampleGroup01Title = @"Third Party";
 
   NONHomeItem *group1 = [[NONHomeItem alloc] init];
   group1.header = SampleGroup01Title;
-  group1.titles = @[ @"Baidu Push", @"test", @"test" ];
+  group1.titles = @[ @"Baidu Push", @"AMap Location", @"AMap 2D MapView" ];
   group1.vcClass = @[
     [NONBPushController class],
-    [NONLifeCycleVCController class],
-    [NONLifeCycleVCController class]
+    [NONLocationMainViewController class],
+    [NONAMap2DMainViewController class]
   ];
 
   self.samples = @[ group0, group1 ];

@@ -12,7 +12,6 @@
 		0827AD6C1C57127400F51461 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD6B1C57127400F51461 /* Foundation.framework */; };
 		0827AD6E1C57129100F51461 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD6D1C57129100F51461 /* CoreTelephony.framework */; };
 		0827AD701C5712C100F51461 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD6F1C5712C100F51461 /* SystemConfiguration.framework */; };
-		0827AD721C57142300F51461 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827AD711C57142300F51461 /* libz.1.2.5.tbd */; };
 		0827AD771C57506600F51461 /* NONBPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0827AD751C57506600F51461 /* NONBPushController.m */; };
 		0827AD781C57506600F51461 /* NONBPushController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0827AD761C57506600F51461 /* NONBPushController.xib */; };
 		08425C2E1C54D25A0007BD6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08425C2C1C54D25A0007BD6B /* LaunchScreen.storyboard */; };
@@ -29,7 +28,107 @@
 		0889D7DF1C5660DF0098FB02 /* ios-uiviewcontroller-lifecycle4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0889D7DB1C5660DF0098FB02 /* ios-uiviewcontroller-lifecycle4.jpg */; };
 		089C7B801C550D050015D074 /* NONHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7B7F1C550D050015D074 /* NONHomeTableViewController.m */; };
 		089C7B851C5512C60015D074 /* NONHomeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7B841C5512C60015D074 /* NONHomeItem.m */; };
-		CB52037536923C8DF7223F61 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F818D977208AA59E626253D4 /* libPods.a */; };
+		08EDFC341C585CFB00A2B4FF /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 08EDFC331C585CFB00A2B4FF /* readme */; };
+		08EDFC391C5875D400A2B4FF /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC361C5875D400A2B4FF /* AMapLocationKit.framework */; };
+		08EDFC3A1C5875D400A2B4FF /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC371C5875D400A2B4FF /* AMapSearchKit.framework */; };
+		08EDFC3B1C5875D400A2B4FF /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC381C5875D400A2B4FF /* MAMapKit.framework */; };
+		08EDFC3D1C58763100A2B4FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC3C1C58763100A2B4FF /* CoreLocation.framework */; };
+		08EDFC411C5876A300A2B4FF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC401C5876A300A2B4FF /* libz.tbd */; };
+		08EDFC611C58953600A2B4FF /* NONLocationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC5A1C58953600A2B4FF /* NONLocationMainViewController.m */; };
+		08EDFC621C58953600A2B4FF /* MonitoringRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC5C1C58953600A2B4FF /* MonitoringRegionViewController.m */; };
+		08EDFC631C58953600A2B4FF /* SerialLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC5E1C58953600A2B4FF /* SerialLocationViewController.m */; };
+		08EDFC641C58953600A2B4FF /* SingleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC601C58953600A2B4FF /* SingleLocationViewController.m */; };
+		08EDFC6A1C58C98700A2B4FF /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08EDFC691C58C98700A2B4FF /* AMap.bundle */; };
+		08EDFC6C1C58C9F700A2B4FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC6B1C58C9F700A2B4FF /* UIKit.framework */; };
+		08EDFC6E1C58CA1100A2B4FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC6D1C58CA1100A2B4FF /* CoreGraphics.framework */; };
+		08EDFC701C58CA2500A2B4FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC6F1C58CA2500A2B4FF /* QuartzCore.framework */; };
+		08EDFC741C58CA8300A2B4FF /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC731C58CA8300A2B4FF /* libstdc++.6.0.9.tbd */; };
+		08EDFC761C58CA9500A2B4FF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC751C58CA9500A2B4FF /* libc++.tbd */; };
+		08EDFC781C58CAB100A2B4FF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EDFC771C58CAB100A2B4FF /* Security.framework */; };
+		08EDFC7B1C58CE1200A2B4FF /* BaseLocationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC7A1C58CE1200A2B4FF /* BaseLocationMapViewController.m */; };
+		08EDFD2D1C58CED500A2B4FF /* BaseAMap2DMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC7F1C58CED500A2B4FF /* BaseAMap2DMapViewController.m */; };
+		08EDFD2E1C58CED500A2B4FF /* NONAMap2DMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC811C58CED500A2B4FF /* NONAMap2DMainViewController.m */; };
+		08EDFD2F1C58CED500A2B4FF /* AddGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC851C58CED500A2B4FF /* AddGestureViewController.m */; };
+		08EDFD301C58CED500A2B4FF /* AnimatedAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC871C58CED500A2B4FF /* AnimatedAnnotationViewController.m */; };
+		08EDFD311C58CED500A2B4FF /* AnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC891C58CED500A2B4FF /* AnnotationViewController.m */; };
+		08EDFD321C58CED500A2B4FF /* CustomAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC8B1C58CED500A2B4FF /* CustomAnnotationViewController.m */; };
+		08EDFD331C58CED500A2B4FF /* CustomOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC8D1C58CED500A2B4FF /* CustomOverlayViewController.m */; };
+		08EDFD341C58CED500A2B4FF /* CustomUserLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC8F1C58CED500A2B4FF /* CustomUserLocationViewController.m */; };
+		08EDFD351C58CED500A2B4FF /* GeodesicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC911C58CED500A2B4FF /* GeodesicViewController.m */; };
+		08EDFD361C58CED500A2B4FF /* GestureAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC931C58CED500A2B4FF /* GestureAttributesViewController.m */; };
+		08EDFD371C58CED500A2B4FF /* GroundOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC951C58CED500A2B4FF /* GroundOverlayViewController.m */; };
+		08EDFD381C58CED500A2B4FF /* HeatMapTileOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC971C58CED500A2B4FF /* HeatMapTileOverlayViewController.m */; };
+		08EDFD391C58CED500A2B4FF /* MapTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC991C58CED500A2B4FF /* MapTypeViewController.m */; };
+		08EDFD3A1C58CED500A2B4FF /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC9B1C58CED500A2B4FF /* OverlayViewController.m */; };
+		08EDFD3B1C58CED500A2B4FF /* RunningLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC9D1C58CED500A2B4FF /* RunningLineViewController.m */; };
+		08EDFD3C1C58CED500A2B4FF /* ScreenshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFC9F1C58CED500A2B4FF /* ScreenshotViewController.m */; };
+		08EDFD3D1C58CED500A2B4FF /* TileOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCA11C58CED500A2B4FF /* TileOverlayViewController.m */; };
+		08EDFD3E1C58CED500A2B4FF /* TrafficViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCA31C58CED500A2B4FF /* TrafficViewController.m */; };
+		08EDFD3F1C58CED500A2B4FF /* UserLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCA51C58CED500A2B4FF /* UserLocationViewController.m */; };
+		08EDFD401C58CED500A2B4FF /* WorldMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCA71C58CED500A2B4FF /* WorldMapViewController.m */; };
+		08EDFD411C58CED500A2B4FF /* ScreenshotDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCAA1C58CED500A2B4FF /* ScreenshotDetailViewController.m */; };
+		08EDFD421C58CED500A2B4FF /* OpenAMapURLRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCAE1C58CED500A2B4FF /* OpenAMapURLRequestViewController.m */; };
+		08EDFD431C58CED500A2B4FF /* OpenURLOnlineNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCB01C58CED500A2B4FF /* OpenURLOnlineNavigationViewController.m */; };
+		08EDFD441C58CED500A2B4FF /* BusLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCB41C58CED500A2B4FF /* BusLineViewController.m */; };
+		08EDFD451C58CED500A2B4FF /* BusStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCB61C58CED500A2B4FF /* BusStopViewController.m */; };
+		08EDFD461C58CED500A2B4FF /* CloudPOIAroundSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCB81C58CED500A2B4FF /* CloudPOIAroundSearchViewController.m */; };
+		08EDFD471C58CED500A2B4FF /* CloudPOIIDSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCBA1C58CED500A2B4FF /* CloudPOIIDSearchViewController.m */; };
+		08EDFD481C58CED500A2B4FF /* CloudPOILocalSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCBC1C58CED500A2B4FF /* CloudPOILocalSearchViewController.m */; };
+		08EDFD491C58CED500A2B4FF /* CloudPOIPolygonSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCBE1C58CED500A2B4FF /* CloudPOIPolygonSearchViewController.m */; };
+		08EDFD4A1C58CED500A2B4FF /* DistrictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCC01C58CED500A2B4FF /* DistrictViewController.m */; };
+		08EDFD4B1C58CED500A2B4FF /* GeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCC21C58CED500A2B4FF /* GeoViewController.m */; };
+		08EDFD4C1C58CED500A2B4FF /* InvertGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCC41C58CED500A2B4FF /* InvertGeoViewController.m */; };
+		08EDFD4D1C58CED500A2B4FF /* LocationShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCC61C58CED500A2B4FF /* LocationShareViewController.m */; };
+		08EDFD4E1C58CED500A2B4FF /* NaviShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCC81C58CED500A2B4FF /* NaviShareViewController.m */; };
+		08EDFD4F1C58CED500A2B4FF /* NearbyVewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCCA1C58CED500A2B4FF /* NearbyVewController.m */; };
+		08EDFD501C58CED500A2B4FF /* POIShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCCC1C58CED500A2B4FF /* POIShareViewController.m */; };
+		08EDFD511C58CED500A2B4FF /* PoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCCE1C58CED500A2B4FF /* PoiViewController.m */; };
+		08EDFD521C58CED500A2B4FF /* RoutePlanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCD01C58CED500A2B4FF /* RoutePlanningViewController.m */; };
+		08EDFD531C58CED500A2B4FF /* RouteShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCD21C58CED500A2B4FF /* RouteShareViewController.m */; };
+		08EDFD541C58CED500A2B4FF /* ShareSearchBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCD41C58CED500A2B4FF /* ShareSearchBaseViewController.m */; };
+		08EDFD551C58CED500A2B4FF /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCD61C58CED500A2B4FF /* TipViewController.m */; };
+		08EDFD561C58CED500A2B4FF /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCD81C58CED500A2B4FF /* WeatherViewController.m */; };
+		08EDFD571C58CED500A2B4FF /* AddressComponentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCDB1C58CED500A2B4FF /* AddressComponentDetailViewController.m */; };
+		08EDFD581C58CED500A2B4FF /* AMapCloudPOIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCDD1C58CED500A2B4FF /* AMapCloudPOIDetailViewController.m */; };
+		08EDFD591C58CED500A2B4FF /* BusLineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCDF1C58CED500A2B4FF /* BusLineDetailViewController.m */; };
+		08EDFD5A1C58CED500A2B4FF /* BusStopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCE11C58CED500A2B4FF /* BusStopDetailViewController.m */; };
+		08EDFD5B1C58CED500A2B4FF /* GeoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCE31C58CED500A2B4FF /* GeoDetailViewController.m */; };
+		08EDFD5C1C58CED500A2B4FF /* InvertGeoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCE51C58CED500A2B4FF /* InvertGeoDetailViewController.m */; };
+		08EDFD5D1C58CED500A2B4FF /* PathDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCE71C58CED500A2B4FF /* PathDetailViewController.m */; };
+		08EDFD5E1C58CED500A2B4FF /* PoiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCE91C58CED500A2B4FF /* PoiDetailViewController.m */; };
+		08EDFD5F1C58CED500A2B4FF /* RoadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCEB1C58CED500A2B4FF /* RoadDetailViewController.m */; };
+		08EDFD601C58CED500A2B4FF /* RoadInterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCED1C58CED500A2B4FF /* RoadInterDetailViewController.m */; };
+		08EDFD611C58CED500A2B4FF /* RouteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCEF1C58CED500A2B4FF /* RouteDetailViewController.m */; };
+		08EDFD621C58CED500A2B4FF /* SegmentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCF11C58CED500A2B4FF /* SegmentDetailViewController.m */; };
+		08EDFD631C58CED500A2B4FF /* StepDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCF31C58CED500A2B4FF /* StepDetailViewController.m */; };
+		08EDFD641C58CED500A2B4FF /* StreetNumberDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCF51C58CED500A2B4FF /* StreetNumberDetailViewController.m */; };
+		08EDFD651C58CED500A2B4FF /* SubPoiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCF71C58CED500A2B4FF /* SubPoiDetailViewController.m */; };
+		08EDFD661C58CED500A2B4FF /* SubPoiListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCF91C58CED500A2B4FF /* SubPoiListViewController.m */; };
+		08EDFD671C58CED500A2B4FF /* TipDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCFB1C58CED500A2B4FF /* TipDetailViewController.m */; };
+		08EDFD681C58CED500A2B4FF /* TransitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCFD1C58CED500A2B4FF /* TransitDetailViewController.m */; };
+		08EDFD691C58CED500A2B4FF /* WalkingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFCFF1C58CED500A2B4FF /* WalkingDetailViewController.m */; };
+		08EDFD6A1C58CED500A2B4FF /* AMapTipAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD021C58CED500A2B4FF /* AMapTipAnnotation.m */; };
+		08EDFD6B1C58CED500A2B4FF /* AnimatedAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD041C58CED500A2B4FF /* AnimatedAnnotation.m */; };
+		08EDFD6C1C58CED500A2B4FF /* BusStopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD061C58CED500A2B4FF /* BusStopAnnotation.m */; };
+		08EDFD6D1C58CED500A2B4FF /* CloudPOIAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD081C58CED500A2B4FF /* CloudPOIAnnotation.m */; };
+		08EDFD6E1C58CED500A2B4FF /* CustomOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD0A1C58CED500A2B4FF /* CustomOverlay.m */; };
+		08EDFD6F1C58CED500A2B4FF /* GeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD0C1C58CED500A2B4FF /* GeocodeAnnotation.m */; };
+		08EDFD701C58CED500A2B4FF /* LineDashPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD0E1C58CED500A2B4FF /* LineDashPolyline.m */; };
+		08EDFD711C58CED500A2B4FF /* LocalTileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD101C58CED500A2B4FF /* LocalTileOverlay.m */; };
+		08EDFD721C58CED500A2B4FF /* MANaviAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD121C58CED500A2B4FF /* MANaviAnnotation.m */; };
+		08EDFD731C58CED500A2B4FF /* MANaviPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD141C58CED500A2B4FF /* MANaviPolyline.m */; };
+		08EDFD741C58CED500A2B4FF /* MANaviRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD161C58CED500A2B4FF /* MANaviRoute.m */; };
+		08EDFD751C58CED500A2B4FF /* POIAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD181C58CED500A2B4FF /* POIAnnotation.m */; };
+		08EDFD761C58CED500A2B4FF /* ReGeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD1A1C58CED500A2B4FF /* ReGeocodeAnnotation.m */; };
+		08EDFD771C58CED500A2B4FF /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD1D1C58CED500A2B4FF /* CommonUtility.m */; };
+		08EDFD781C58CED500A2B4FF /* AnimatedAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD201C58CED500A2B4FF /* AnimatedAnnotationView.m */; };
+		08EDFD791C58CED500A2B4FF /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD221C58CED500A2B4FF /* CustomAnnotationView.m */; };
+		08EDFD7A1C58CED500A2B4FF /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD241C58CED500A2B4FF /* CustomCalloutView.m */; };
+		08EDFD7B1C58CED500A2B4FF /* CustomOverlayRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD261C58CED500A2B4FF /* CustomOverlayRenderer.m */; };
+		08EDFD7C1C58CED500A2B4FF /* MANaviAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD281C58CED500A2B4FF /* MANaviAnnotationView.m */; };
+		08EDFD7D1C58CED500A2B4FF /* MAWeatherForecastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD2A1C58CED500A2B4FF /* MAWeatherForecastView.m */; };
+		08EDFD7E1C58CED500A2B4FF /* MAWeatherLiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EDFD2C1C58CED500A2B4FF /* MAWeatherLiveView.m */; };
+		43E49D46B9747117C614186D /* Pods_iOS_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B40B658183DB6E739EC6EA /* Pods_iOS_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +138,6 @@
 		0827AD6B1C57127400F51461 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0827AD6D1C57129100F51461 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		0827AD6F1C5712C100F51461 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		0827AD711C57142300F51461 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		0827AD741C57506600F51461 /* NONBPushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NONBPushController.h; sourceTree = "<group>"; };
 		0827AD751C57506600F51461 /* NONBPushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NONBPushController.m; sourceTree = "<group>"; };
 		0827AD761C57506600F51461 /* NONBPushController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NONBPushController.xib; sourceTree = "<group>"; };
@@ -49,7 +147,7 @@
 		08425C351C54D2950007BD6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08425C381C54D2A20007BD6B /* NONAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NONAppDelegate.h; sourceTree = "<group>"; };
 		08425C391C54D2A20007BD6B /* NONAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NONAppDelegate.m; sourceTree = "<group>"; };
-		08425C3A1C54D2A20007BD6B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08425C3A1C54D2A20007BD6B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Classes/AppDelegate/main.m; sourceTree = "<group>"; };
 		08425C421C54D33A0007BD6B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "iOS-Sample/Info.plist"; sourceTree = SOURCE_ROOT; };
 		0889D7B61C55C8470098FB02 /* NONLifeCycleAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NONLifeCycleAppController.h; sourceTree = "<group>"; };
 		0889D7B71C55C8470098FB02 /* NONLifeCycleAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NONLifeCycleAppController.m; sourceTree = "<group>"; };
@@ -64,9 +162,198 @@
 		089C7B7F1C550D050015D074 /* NONHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NONHomeTableViewController.m; sourceTree = "<group>"; };
 		089C7B831C5512C60015D074 /* NONHomeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NONHomeItem.h; sourceTree = "<group>"; };
 		089C7B841C5512C60015D074 /* NONHomeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NONHomeItem.m; sourceTree = "<group>"; };
-		6DB71381413B676473D701E5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		D157C66B9B040A5C7D0E5AC9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		F818D977208AA59E626253D4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EDFC331C585CFB00A2B4FF /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		08EDFC361C5875D400A2B4FF /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		08EDFC371C5875D400A2B4FF /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		08EDFC381C5875D400A2B4FF /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		08EDFC3C1C58763100A2B4FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		08EDFC401C5876A300A2B4FF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		08EDFC571C5894EE00A2B4FF /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		08EDFC591C58953600A2B4FF /* NONLocationMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NONLocationMainViewController.h; sourceTree = "<group>"; };
+		08EDFC5A1C58953600A2B4FF /* NONLocationMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NONLocationMainViewController.m; sourceTree = "<group>"; };
+		08EDFC5B1C58953600A2B4FF /* MonitoringRegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitoringRegionViewController.h; sourceTree = "<group>"; };
+		08EDFC5C1C58953600A2B4FF /* MonitoringRegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitoringRegionViewController.m; sourceTree = "<group>"; };
+		08EDFC5D1C58953600A2B4FF /* SerialLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialLocationViewController.h; sourceTree = "<group>"; };
+		08EDFC5E1C58953600A2B4FF /* SerialLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialLocationViewController.m; sourceTree = "<group>"; };
+		08EDFC5F1C58953600A2B4FF /* SingleLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLocationViewController.h; sourceTree = "<group>"; };
+		08EDFC601C58953600A2B4FF /* SingleLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLocationViewController.m; sourceTree = "<group>"; };
+		08EDFC691C58C98700A2B4FF /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		08EDFC6B1C58C9F700A2B4FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08EDFC6D1C58CA1100A2B4FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08EDFC6F1C58CA2500A2B4FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		08EDFC711C58CA3400A2B4FF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		08EDFC731C58CA8300A2B4FF /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		08EDFC751C58CA9500A2B4FF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		08EDFC771C58CAB100A2B4FF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		08EDFC791C58CE1200A2B4FF /* BaseLocationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLocationMapViewController.h; sourceTree = "<group>"; };
+		08EDFC7A1C58CE1200A2B4FF /* BaseLocationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLocationMapViewController.m; sourceTree = "<group>"; };
+		08EDFC7E1C58CED500A2B4FF /* BaseAMap2DMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAMap2DMapViewController.h; sourceTree = "<group>"; };
+		08EDFC7F1C58CED500A2B4FF /* BaseAMap2DMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAMap2DMapViewController.m; sourceTree = "<group>"; };
+		08EDFC801C58CED500A2B4FF /* NONAMap2DMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NONAMap2DMainViewController.h; sourceTree = "<group>"; };
+		08EDFC811C58CED500A2B4FF /* NONAMap2DMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NONAMap2DMainViewController.m; sourceTree = "<group>"; };
+		08EDFC841C58CED500A2B4FF /* AddGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGestureViewController.h; sourceTree = "<group>"; };
+		08EDFC851C58CED500A2B4FF /* AddGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGestureViewController.m; sourceTree = "<group>"; };
+		08EDFC861C58CED500A2B4FF /* AnimatedAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedAnnotationViewController.h; sourceTree = "<group>"; };
+		08EDFC871C58CED500A2B4FF /* AnimatedAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedAnnotationViewController.m; sourceTree = "<group>"; };
+		08EDFC881C58CED500A2B4FF /* AnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationViewController.h; sourceTree = "<group>"; };
+		08EDFC891C58CED500A2B4FF /* AnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationViewController.m; sourceTree = "<group>"; };
+		08EDFC8A1C58CED500A2B4FF /* CustomAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationViewController.h; sourceTree = "<group>"; };
+		08EDFC8B1C58CED500A2B4FF /* CustomAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationViewController.m; sourceTree = "<group>"; };
+		08EDFC8C1C58CED500A2B4FF /* CustomOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOverlayViewController.h; sourceTree = "<group>"; };
+		08EDFC8D1C58CED500A2B4FF /* CustomOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOverlayViewController.m; sourceTree = "<group>"; };
+		08EDFC8E1C58CED500A2B4FF /* CustomUserLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUserLocationViewController.h; sourceTree = "<group>"; };
+		08EDFC8F1C58CED500A2B4FF /* CustomUserLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUserLocationViewController.m; sourceTree = "<group>"; };
+		08EDFC901C58CED500A2B4FF /* GeodesicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeodesicViewController.h; sourceTree = "<group>"; };
+		08EDFC911C58CED500A2B4FF /* GeodesicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeodesicViewController.m; sourceTree = "<group>"; };
+		08EDFC921C58CED500A2B4FF /* GestureAttributesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureAttributesViewController.h; sourceTree = "<group>"; };
+		08EDFC931C58CED500A2B4FF /* GestureAttributesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureAttributesViewController.m; sourceTree = "<group>"; };
+		08EDFC941C58CED500A2B4FF /* GroundOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundOverlayViewController.h; sourceTree = "<group>"; };
+		08EDFC951C58CED500A2B4FF /* GroundOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundOverlayViewController.m; sourceTree = "<group>"; };
+		08EDFC961C58CED500A2B4FF /* HeatMapTileOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatMapTileOverlayViewController.h; sourceTree = "<group>"; };
+		08EDFC971C58CED500A2B4FF /* HeatMapTileOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeatMapTileOverlayViewController.m; sourceTree = "<group>"; };
+		08EDFC981C58CED500A2B4FF /* MapTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTypeViewController.h; sourceTree = "<group>"; };
+		08EDFC991C58CED500A2B4FF /* MapTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTypeViewController.m; sourceTree = "<group>"; };
+		08EDFC9A1C58CED500A2B4FF /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		08EDFC9B1C58CED500A2B4FF /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		08EDFC9C1C58CED500A2B4FF /* RunningLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunningLineViewController.h; sourceTree = "<group>"; };
+		08EDFC9D1C58CED500A2B4FF /* RunningLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunningLineViewController.m; sourceTree = "<group>"; };
+		08EDFC9E1C58CED500A2B4FF /* ScreenshotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenshotViewController.h; sourceTree = "<group>"; };
+		08EDFC9F1C58CED500A2B4FF /* ScreenshotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotViewController.m; sourceTree = "<group>"; };
+		08EDFCA01C58CED500A2B4FF /* TileOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileOverlayViewController.h; sourceTree = "<group>"; };
+		08EDFCA11C58CED500A2B4FF /* TileOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileOverlayViewController.m; sourceTree = "<group>"; };
+		08EDFCA21C58CED500A2B4FF /* TrafficViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficViewController.h; sourceTree = "<group>"; };
+		08EDFCA31C58CED500A2B4FF /* TrafficViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficViewController.m; sourceTree = "<group>"; };
+		08EDFCA41C58CED500A2B4FF /* UserLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationViewController.h; sourceTree = "<group>"; };
+		08EDFCA51C58CED500A2B4FF /* UserLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationViewController.m; sourceTree = "<group>"; };
+		08EDFCA61C58CED500A2B4FF /* WorldMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldMapViewController.h; sourceTree = "<group>"; };
+		08EDFCA71C58CED500A2B4FF /* WorldMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldMapViewController.m; sourceTree = "<group>"; };
+		08EDFCA91C58CED500A2B4FF /* ScreenshotDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenshotDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCAA1C58CED500A2B4FF /* ScreenshotDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenshotDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCAD1C58CED500A2B4FF /* OpenAMapURLRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenAMapURLRequestViewController.h; sourceTree = "<group>"; };
+		08EDFCAE1C58CED500A2B4FF /* OpenAMapURLRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenAMapURLRequestViewController.m; sourceTree = "<group>"; };
+		08EDFCAF1C58CED500A2B4FF /* OpenURLOnlineNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenURLOnlineNavigationViewController.h; sourceTree = "<group>"; };
+		08EDFCB01C58CED500A2B4FF /* OpenURLOnlineNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenURLOnlineNavigationViewController.m; sourceTree = "<group>"; };
+		08EDFCB31C58CED500A2B4FF /* BusLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusLineViewController.h; sourceTree = "<group>"; };
+		08EDFCB41C58CED500A2B4FF /* BusLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusLineViewController.m; sourceTree = "<group>"; };
+		08EDFCB51C58CED500A2B4FF /* BusStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopViewController.h; sourceTree = "<group>"; };
+		08EDFCB61C58CED500A2B4FF /* BusStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopViewController.m; sourceTree = "<group>"; };
+		08EDFCB71C58CED500A2B4FF /* CloudPOIAroundSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudPOIAroundSearchViewController.h; sourceTree = "<group>"; };
+		08EDFCB81C58CED500A2B4FF /* CloudPOIAroundSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudPOIAroundSearchViewController.m; sourceTree = "<group>"; };
+		08EDFCB91C58CED500A2B4FF /* CloudPOIIDSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudPOIIDSearchViewController.h; sourceTree = "<group>"; };
+		08EDFCBA1C58CED500A2B4FF /* CloudPOIIDSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudPOIIDSearchViewController.m; sourceTree = "<group>"; };
+		08EDFCBB1C58CED500A2B4FF /* CloudPOILocalSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudPOILocalSearchViewController.h; sourceTree = "<group>"; };
+		08EDFCBC1C58CED500A2B4FF /* CloudPOILocalSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudPOILocalSearchViewController.m; sourceTree = "<group>"; };
+		08EDFCBD1C58CED500A2B4FF /* CloudPOIPolygonSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudPOIPolygonSearchViewController.h; sourceTree = "<group>"; };
+		08EDFCBE1C58CED500A2B4FF /* CloudPOIPolygonSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudPOIPolygonSearchViewController.m; sourceTree = "<group>"; };
+		08EDFCBF1C58CED500A2B4FF /* DistrictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistrictViewController.h; sourceTree = "<group>"; };
+		08EDFCC01C58CED500A2B4FF /* DistrictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistrictViewController.m; sourceTree = "<group>"; };
+		08EDFCC11C58CED500A2B4FF /* GeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoViewController.h; sourceTree = "<group>"; };
+		08EDFCC21C58CED500A2B4FF /* GeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoViewController.m; sourceTree = "<group>"; };
+		08EDFCC31C58CED500A2B4FF /* InvertGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertGeoViewController.h; sourceTree = "<group>"; };
+		08EDFCC41C58CED500A2B4FF /* InvertGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertGeoViewController.m; sourceTree = "<group>"; };
+		08EDFCC51C58CED500A2B4FF /* LocationShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareViewController.h; sourceTree = "<group>"; };
+		08EDFCC61C58CED500A2B4FF /* LocationShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareViewController.m; sourceTree = "<group>"; };
+		08EDFCC71C58CED500A2B4FF /* NaviShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviShareViewController.h; sourceTree = "<group>"; };
+		08EDFCC81C58CED500A2B4FF /* NaviShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviShareViewController.m; sourceTree = "<group>"; };
+		08EDFCC91C58CED500A2B4FF /* NearbyVewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyVewController.h; sourceTree = "<group>"; };
+		08EDFCCA1C58CED500A2B4FF /* NearbyVewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyVewController.m; sourceTree = "<group>"; };
+		08EDFCCB1C58CED500A2B4FF /* POIShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIShareViewController.h; sourceTree = "<group>"; };
+		08EDFCCC1C58CED500A2B4FF /* POIShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIShareViewController.m; sourceTree = "<group>"; };
+		08EDFCCD1C58CED500A2B4FF /* PoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiViewController.h; sourceTree = "<group>"; };
+		08EDFCCE1C58CED500A2B4FF /* PoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiViewController.m; sourceTree = "<group>"; };
+		08EDFCCF1C58CED500A2B4FF /* RoutePlanningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutePlanningViewController.h; sourceTree = "<group>"; };
+		08EDFCD01C58CED500A2B4FF /* RoutePlanningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutePlanningViewController.m; sourceTree = "<group>"; };
+		08EDFCD11C58CED500A2B4FF /* RouteShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteShareViewController.h; sourceTree = "<group>"; };
+		08EDFCD21C58CED500A2B4FF /* RouteShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteShareViewController.m; sourceTree = "<group>"; };
+		08EDFCD31C58CED500A2B4FF /* ShareSearchBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSearchBaseViewController.h; sourceTree = "<group>"; };
+		08EDFCD41C58CED500A2B4FF /* ShareSearchBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSearchBaseViewController.m; sourceTree = "<group>"; };
+		08EDFCD51C58CED500A2B4FF /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		08EDFCD61C58CED500A2B4FF /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		08EDFCD71C58CED500A2B4FF /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		08EDFCD81C58CED500A2B4FF /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		08EDFCDA1C58CED500A2B4FF /* AddressComponentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressComponentDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCDB1C58CED500A2B4FF /* AddressComponentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressComponentDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCDC1C58CED500A2B4FF /* AMapCloudPOIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapCloudPOIDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCDD1C58CED500A2B4FF /* AMapCloudPOIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapCloudPOIDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCDE1C58CED500A2B4FF /* BusLineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusLineDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCDF1C58CED500A2B4FF /* BusLineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusLineDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCE01C58CED500A2B4FF /* BusStopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCE11C58CED500A2B4FF /* BusStopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCE21C58CED500A2B4FF /* GeoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCE31C58CED500A2B4FF /* GeoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCE41C58CED500A2B4FF /* InvertGeoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertGeoDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCE51C58CED500A2B4FF /* InvertGeoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertGeoDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCE61C58CED500A2B4FF /* PathDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCE71C58CED500A2B4FF /* PathDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCE81C58CED500A2B4FF /* PoiDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCE91C58CED500A2B4FF /* PoiDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCEA1C58CED500A2B4FF /* RoadDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoadDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCEB1C58CED500A2B4FF /* RoadDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoadDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCEC1C58CED500A2B4FF /* RoadInterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoadInterDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCED1C58CED500A2B4FF /* RoadInterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoadInterDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCEE1C58CED500A2B4FF /* RouteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCEF1C58CED500A2B4FF /* RouteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCF01C58CED500A2B4FF /* SegmentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCF11C58CED500A2B4FF /* SegmentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCF21C58CED500A2B4FF /* StepDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCF31C58CED500A2B4FF /* StepDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCF41C58CED500A2B4FF /* StreetNumberDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetNumberDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCF51C58CED500A2B4FF /* StreetNumberDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetNumberDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCF61C58CED500A2B4FF /* SubPoiDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubPoiDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCF71C58CED500A2B4FF /* SubPoiDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubPoiDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCF81C58CED500A2B4FF /* SubPoiListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubPoiListViewController.h; sourceTree = "<group>"; };
+		08EDFCF91C58CED500A2B4FF /* SubPoiListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubPoiListViewController.m; sourceTree = "<group>"; };
+		08EDFCFA1C58CED500A2B4FF /* TipDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCFB1C58CED500A2B4FF /* TipDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCFC1C58CED500A2B4FF /* TransitDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCFD1C58CED500A2B4FF /* TransitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitDetailViewController.m; sourceTree = "<group>"; };
+		08EDFCFE1C58CED500A2B4FF /* WalkingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkingDetailViewController.h; sourceTree = "<group>"; };
+		08EDFCFF1C58CED500A2B4FF /* WalkingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkingDetailViewController.m; sourceTree = "<group>"; };
+		08EDFD011C58CED500A2B4FF /* AMapTipAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapTipAnnotation.h; sourceTree = "<group>"; };
+		08EDFD021C58CED500A2B4FF /* AMapTipAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapTipAnnotation.m; sourceTree = "<group>"; };
+		08EDFD031C58CED500A2B4FF /* AnimatedAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedAnnotation.h; sourceTree = "<group>"; };
+		08EDFD041C58CED500A2B4FF /* AnimatedAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedAnnotation.m; sourceTree = "<group>"; };
+		08EDFD051C58CED500A2B4FF /* BusStopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopAnnotation.h; sourceTree = "<group>"; };
+		08EDFD061C58CED500A2B4FF /* BusStopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopAnnotation.m; sourceTree = "<group>"; };
+		08EDFD071C58CED500A2B4FF /* CloudPOIAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudPOIAnnotation.h; sourceTree = "<group>"; };
+		08EDFD081C58CED500A2B4FF /* CloudPOIAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudPOIAnnotation.m; sourceTree = "<group>"; };
+		08EDFD091C58CED500A2B4FF /* CustomOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOverlay.h; sourceTree = "<group>"; };
+		08EDFD0A1C58CED500A2B4FF /* CustomOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOverlay.m; sourceTree = "<group>"; };
+		08EDFD0B1C58CED500A2B4FF /* GeocodeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodeAnnotation.h; sourceTree = "<group>"; };
+		08EDFD0C1C58CED500A2B4FF /* GeocodeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodeAnnotation.m; sourceTree = "<group>"; };
+		08EDFD0D1C58CED500A2B4FF /* LineDashPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineDashPolyline.h; sourceTree = "<group>"; };
+		08EDFD0E1C58CED500A2B4FF /* LineDashPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineDashPolyline.m; sourceTree = "<group>"; };
+		08EDFD0F1C58CED500A2B4FF /* LocalTileOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalTileOverlay.h; sourceTree = "<group>"; };
+		08EDFD101C58CED500A2B4FF /* LocalTileOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalTileOverlay.m; sourceTree = "<group>"; };
+		08EDFD111C58CED500A2B4FF /* MANaviAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviAnnotation.h; sourceTree = "<group>"; };
+		08EDFD121C58CED500A2B4FF /* MANaviAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviAnnotation.m; sourceTree = "<group>"; };
+		08EDFD131C58CED500A2B4FF /* MANaviPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviPolyline.h; sourceTree = "<group>"; };
+		08EDFD141C58CED500A2B4FF /* MANaviPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviPolyline.m; sourceTree = "<group>"; };
+		08EDFD151C58CED500A2B4FF /* MANaviRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviRoute.h; sourceTree = "<group>"; };
+		08EDFD161C58CED500A2B4FF /* MANaviRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviRoute.m; sourceTree = "<group>"; };
+		08EDFD171C58CED500A2B4FF /* POIAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIAnnotation.h; sourceTree = "<group>"; };
+		08EDFD181C58CED500A2B4FF /* POIAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIAnnotation.m; sourceTree = "<group>"; };
+		08EDFD191C58CED500A2B4FF /* ReGeocodeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReGeocodeAnnotation.h; sourceTree = "<group>"; };
+		08EDFD1A1C58CED500A2B4FF /* ReGeocodeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReGeocodeAnnotation.m; sourceTree = "<group>"; };
+		08EDFD1C1C58CED500A2B4FF /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
+		08EDFD1D1C58CED500A2B4FF /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		08EDFD1F1C58CED500A2B4FF /* AnimatedAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedAnnotationView.h; sourceTree = "<group>"; };
+		08EDFD201C58CED500A2B4FF /* AnimatedAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedAnnotationView.m; sourceTree = "<group>"; };
+		08EDFD211C58CED500A2B4FF /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		08EDFD221C58CED500A2B4FF /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		08EDFD231C58CED500A2B4FF /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
+		08EDFD241C58CED500A2B4FF /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutView.m; sourceTree = "<group>"; };
+		08EDFD251C58CED500A2B4FF /* CustomOverlayRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOverlayRenderer.h; sourceTree = "<group>"; };
+		08EDFD261C58CED500A2B4FF /* CustomOverlayRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOverlayRenderer.m; sourceTree = "<group>"; };
+		08EDFD271C58CED500A2B4FF /* MANaviAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviAnnotationView.h; sourceTree = "<group>"; };
+		08EDFD281C58CED500A2B4FF /* MANaviAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviAnnotationView.m; sourceTree = "<group>"; };
+		08EDFD291C58CED500A2B4FF /* MAWeatherForecastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWeatherForecastView.h; sourceTree = "<group>"; };
+		08EDFD2A1C58CED500A2B4FF /* MAWeatherForecastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWeatherForecastView.m; sourceTree = "<group>"; };
+		08EDFD2B1C58CED500A2B4FF /* MAWeatherLiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWeatherLiveView.h; sourceTree = "<group>"; };
+		08EDFD2C1C58CED500A2B4FF /* MAWeatherLiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWeatherLiveView.m; sourceTree = "<group>"; };
+		B747F9FDB2A3B766644D249B /* Pods-iOS-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Sample/Pods-iOS-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		CB4361F69EB5AF201796D939 /* Pods-iOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Sample/Pods-iOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B40B658183DB6E739EC6EA /* Pods_iOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +361,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0827AD721C57142300F51461 /* libz.1.2.5.tbd in Frameworks */,
+				08EDFC781C58CAB100A2B4FF /* Security.framework in Frameworks */,
+				08EDFC761C58CA9500A2B4FF /* libc++.tbd in Frameworks */,
+				08EDFC741C58CA8300A2B4FF /* libstdc++.6.0.9.tbd in Frameworks */,
+				08EDFC701C58CA2500A2B4FF /* QuartzCore.framework in Frameworks */,
+				08EDFC6E1C58CA1100A2B4FF /* CoreGraphics.framework in Frameworks */,
+				08EDFC6C1C58C9F700A2B4FF /* UIKit.framework in Frameworks */,
+				08EDFC3A1C5875D400A2B4FF /* AMapSearchKit.framework in Frameworks */,
+				08EDFC391C5875D400A2B4FF /* AMapLocationKit.framework in Frameworks */,
+				08EDFC3B1C5875D400A2B4FF /* MAMapKit.framework in Frameworks */,
+				08EDFC411C5876A300A2B4FF /* libz.tbd in Frameworks */,
+				08EDFC3D1C58763100A2B4FF /* CoreLocation.framework in Frameworks */,
 				0827AD701C5712C100F51461 /* SystemConfiguration.framework in Frameworks */,
 				0827AD6E1C57129100F51461 /* CoreTelephony.framework in Frameworks */,
 				0827AD6C1C57127400F51461 /* Foundation.framework in Frameworks */,
 				0827AD691C57123D00F51461 /* libBPush.a in Frameworks */,
-				CB52037536923C8DF7223F61 /* libPods.a in Frameworks */,
+				43E49D46B9747117C614186D /* Pods_iOS_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,9 +407,9 @@
 			isa = PBXGroup;
 			children = (
 				08425C041C54AD190007BD6B /* iOS-Sample */,
-				C7F25DEA6282093CFF8D56B3 /* Pods */,
 				CB979AD5EA0F82730388B86B /* Frameworks */,
 				08425C031C54AD190007BD6B /* Products */,
+				344E9C297122EF6333F02204 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,8 +444,9 @@
 		08425C271C54CEE40007BD6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0889D7BE1C5627D00098FB02 /* docs */,
+				08425C3A1C54D2A20007BD6B /* main.m */,
 				08425C421C54D33A0007BD6B /* Info.plist */,
+				08EDFC331C585CFB00A2B4FF /* readme */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,6 +454,7 @@
 		08425C281C54CF430007BD6B /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				08EDFC351C5875D400A2B4FF /* AMap */,
 				0827AD651C57123D00F51461 /* LibBPush */,
 			);
 			path = Vendors;
@@ -164,6 +463,7 @@
 		08425C2A1C54CFDE0007BD6B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				08EDFC421C58789A00A2B4FF /* AMap */,
 				08425C371C54D2A20007BD6B /* AppDelegate */,
 				0827AD731C57506600F51461 /* BPush */,
 				08425C3B1C54D2A20007BD6B /* Commons */,
@@ -188,7 +488,6 @@
 			children = (
 				08425C381C54D2A20007BD6B /* NONAppDelegate.h */,
 				08425C391C54D2A20007BD6B /* NONAppDelegate.m */,
-				08425C3A1C54D2A20007BD6B /* main.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -223,13 +522,6 @@
 			path = LifeCycle;
 			sourceTree = "<group>";
 		};
-		0889D7BE1C5627D00098FB02 /* docs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = docs;
-			sourceTree = "<group>";
-		};
 		089C7B7D1C550CCD0015D074 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,11 +533,316 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		C7F25DEA6282093CFF8D56B3 /* Pods */ = {
+		08EDFC351C5875D400A2B4FF /* AMap */ = {
 			isa = PBXGroup;
 			children = (
-				6DB71381413B676473D701E5 /* Pods.debug.xcconfig */,
-				D157C66B9B040A5C7D0E5AC9 /* Pods.release.xcconfig */,
+				08EDFC691C58C98700A2B4FF /* AMap.bundle */,
+				08EDFC361C5875D400A2B4FF /* AMapLocationKit.framework */,
+				08EDFC371C5875D400A2B4FF /* AMapSearchKit.framework */,
+				08EDFC381C5875D400A2B4FF /* MAMapKit.framework */,
+			);
+			path = AMap;
+			sourceTree = "<group>";
+		};
+		08EDFC421C58789A00A2B4FF /* AMap */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFC571C5894EE00A2B4FF /* APIKey.h */,
+				08EDFC7C1C58CED500A2B4FF /* AMap2D */,
+				08EDFC581C58953600A2B4FF /* Location */,
+			);
+			path = AMap;
+			sourceTree = "<group>";
+		};
+		08EDFC581C58953600A2B4FF /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFC791C58CE1200A2B4FF /* BaseLocationMapViewController.h */,
+				08EDFC7A1C58CE1200A2B4FF /* BaseLocationMapViewController.m */,
+				08EDFC591C58953600A2B4FF /* NONLocationMainViewController.h */,
+				08EDFC5A1C58953600A2B4FF /* NONLocationMainViewController.m */,
+				08EDFC5B1C58953600A2B4FF /* MonitoringRegionViewController.h */,
+				08EDFC5C1C58953600A2B4FF /* MonitoringRegionViewController.m */,
+				08EDFC5D1C58953600A2B4FF /* SerialLocationViewController.h */,
+				08EDFC5E1C58953600A2B4FF /* SerialLocationViewController.m */,
+				08EDFC5F1C58953600A2B4FF /* SingleLocationViewController.h */,
+				08EDFC601C58953600A2B4FF /* SingleLocationViewController.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		08EDFC7C1C58CED500A2B4FF /* AMap2D */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFC7D1C58CED500A2B4FF /* Controllers */,
+				08EDFD001C58CED500A2B4FF /* Models */,
+				08EDFD1B1C58CED500A2B4FF /* Utility */,
+				08EDFD1E1C58CED500A2B4FF /* Views */,
+			);
+			path = AMap2D;
+			sourceTree = "<group>";
+		};
+		08EDFC7D1C58CED500A2B4FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFC7E1C58CED500A2B4FF /* BaseAMap2DMapViewController.h */,
+				08EDFC7F1C58CED500A2B4FF /* BaseAMap2DMapViewController.m */,
+				08EDFC801C58CED500A2B4FF /* NONAMap2DMainViewController.h */,
+				08EDFC811C58CED500A2B4FF /* NONAMap2DMainViewController.m */,
+				08EDFC821C58CED500A2B4FF /* MapControllers */,
+				08EDFCAB1C58CED500A2B4FF /* OpenURLControllers */,
+				08EDFCB11C58CED500A2B4FF /* SearchControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		08EDFC821C58CED500A2B4FF /* MapControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFC831C58CED500A2B4FF /* MapBaseControllers */,
+				08EDFCA81C58CED500A2B4FF /* MapDetailControllers */,
+			);
+			path = MapControllers;
+			sourceTree = "<group>";
+		};
+		08EDFC831C58CED500A2B4FF /* MapBaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFC841C58CED500A2B4FF /* AddGestureViewController.h */,
+				08EDFC851C58CED500A2B4FF /* AddGestureViewController.m */,
+				08EDFC861C58CED500A2B4FF /* AnimatedAnnotationViewController.h */,
+				08EDFC871C58CED500A2B4FF /* AnimatedAnnotationViewController.m */,
+				08EDFC881C58CED500A2B4FF /* AnnotationViewController.h */,
+				08EDFC891C58CED500A2B4FF /* AnnotationViewController.m */,
+				08EDFC8A1C58CED500A2B4FF /* CustomAnnotationViewController.h */,
+				08EDFC8B1C58CED500A2B4FF /* CustomAnnotationViewController.m */,
+				08EDFC8C1C58CED500A2B4FF /* CustomOverlayViewController.h */,
+				08EDFC8D1C58CED500A2B4FF /* CustomOverlayViewController.m */,
+				08EDFC8E1C58CED500A2B4FF /* CustomUserLocationViewController.h */,
+				08EDFC8F1C58CED500A2B4FF /* CustomUserLocationViewController.m */,
+				08EDFC901C58CED500A2B4FF /* GeodesicViewController.h */,
+				08EDFC911C58CED500A2B4FF /* GeodesicViewController.m */,
+				08EDFC921C58CED500A2B4FF /* GestureAttributesViewController.h */,
+				08EDFC931C58CED500A2B4FF /* GestureAttributesViewController.m */,
+				08EDFC941C58CED500A2B4FF /* GroundOverlayViewController.h */,
+				08EDFC951C58CED500A2B4FF /* GroundOverlayViewController.m */,
+				08EDFC961C58CED500A2B4FF /* HeatMapTileOverlayViewController.h */,
+				08EDFC971C58CED500A2B4FF /* HeatMapTileOverlayViewController.m */,
+				08EDFC981C58CED500A2B4FF /* MapTypeViewController.h */,
+				08EDFC991C58CED500A2B4FF /* MapTypeViewController.m */,
+				08EDFC9A1C58CED500A2B4FF /* OverlayViewController.h */,
+				08EDFC9B1C58CED500A2B4FF /* OverlayViewController.m */,
+				08EDFC9C1C58CED500A2B4FF /* RunningLineViewController.h */,
+				08EDFC9D1C58CED500A2B4FF /* RunningLineViewController.m */,
+				08EDFC9E1C58CED500A2B4FF /* ScreenshotViewController.h */,
+				08EDFC9F1C58CED500A2B4FF /* ScreenshotViewController.m */,
+				08EDFCA01C58CED500A2B4FF /* TileOverlayViewController.h */,
+				08EDFCA11C58CED500A2B4FF /* TileOverlayViewController.m */,
+				08EDFCA21C58CED500A2B4FF /* TrafficViewController.h */,
+				08EDFCA31C58CED500A2B4FF /* TrafficViewController.m */,
+				08EDFCA41C58CED500A2B4FF /* UserLocationViewController.h */,
+				08EDFCA51C58CED500A2B4FF /* UserLocationViewController.m */,
+				08EDFCA61C58CED500A2B4FF /* WorldMapViewController.h */,
+				08EDFCA71C58CED500A2B4FF /* WorldMapViewController.m */,
+			);
+			path = MapBaseControllers;
+			sourceTree = "<group>";
+		};
+		08EDFCA81C58CED500A2B4FF /* MapDetailControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFCA91C58CED500A2B4FF /* ScreenshotDetailViewController.h */,
+				08EDFCAA1C58CED500A2B4FF /* ScreenshotDetailViewController.m */,
+			);
+			path = MapDetailControllers;
+			sourceTree = "<group>";
+		};
+		08EDFCAB1C58CED500A2B4FF /* OpenURLControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFCAC1C58CED500A2B4FF /* OpenURLBaseControllers */,
+			);
+			path = OpenURLControllers;
+			sourceTree = "<group>";
+		};
+		08EDFCAC1C58CED500A2B4FF /* OpenURLBaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFCAD1C58CED500A2B4FF /* OpenAMapURLRequestViewController.h */,
+				08EDFCAE1C58CED500A2B4FF /* OpenAMapURLRequestViewController.m */,
+				08EDFCAF1C58CED500A2B4FF /* OpenURLOnlineNavigationViewController.h */,
+				08EDFCB01C58CED500A2B4FF /* OpenURLOnlineNavigationViewController.m */,
+			);
+			path = OpenURLBaseControllers;
+			sourceTree = "<group>";
+		};
+		08EDFCB11C58CED500A2B4FF /* SearchControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFCB21C58CED500A2B4FF /* SearchBaseControllers */,
+				08EDFCD91C58CED500A2B4FF /* SearchDetailControllers */,
+			);
+			path = SearchControllers;
+			sourceTree = "<group>";
+		};
+		08EDFCB21C58CED500A2B4FF /* SearchBaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFCB31C58CED500A2B4FF /* BusLineViewController.h */,
+				08EDFCB41C58CED500A2B4FF /* BusLineViewController.m */,
+				08EDFCB51C58CED500A2B4FF /* BusStopViewController.h */,
+				08EDFCB61C58CED500A2B4FF /* BusStopViewController.m */,
+				08EDFCB71C58CED500A2B4FF /* CloudPOIAroundSearchViewController.h */,
+				08EDFCB81C58CED500A2B4FF /* CloudPOIAroundSearchViewController.m */,
+				08EDFCB91C58CED500A2B4FF /* CloudPOIIDSearchViewController.h */,
+				08EDFCBA1C58CED500A2B4FF /* CloudPOIIDSearchViewController.m */,
+				08EDFCBB1C58CED500A2B4FF /* CloudPOILocalSearchViewController.h */,
+				08EDFCBC1C58CED500A2B4FF /* CloudPOILocalSearchViewController.m */,
+				08EDFCBD1C58CED500A2B4FF /* CloudPOIPolygonSearchViewController.h */,
+				08EDFCBE1C58CED500A2B4FF /* CloudPOIPolygonSearchViewController.m */,
+				08EDFCBF1C58CED500A2B4FF /* DistrictViewController.h */,
+				08EDFCC01C58CED500A2B4FF /* DistrictViewController.m */,
+				08EDFCC11C58CED500A2B4FF /* GeoViewController.h */,
+				08EDFCC21C58CED500A2B4FF /* GeoViewController.m */,
+				08EDFCC31C58CED500A2B4FF /* InvertGeoViewController.h */,
+				08EDFCC41C58CED500A2B4FF /* InvertGeoViewController.m */,
+				08EDFCC51C58CED500A2B4FF /* LocationShareViewController.h */,
+				08EDFCC61C58CED500A2B4FF /* LocationShareViewController.m */,
+				08EDFCC71C58CED500A2B4FF /* NaviShareViewController.h */,
+				08EDFCC81C58CED500A2B4FF /* NaviShareViewController.m */,
+				08EDFCC91C58CED500A2B4FF /* NearbyVewController.h */,
+				08EDFCCA1C58CED500A2B4FF /* NearbyVewController.m */,
+				08EDFCCB1C58CED500A2B4FF /* POIShareViewController.h */,
+				08EDFCCC1C58CED500A2B4FF /* POIShareViewController.m */,
+				08EDFCCD1C58CED500A2B4FF /* PoiViewController.h */,
+				08EDFCCE1C58CED500A2B4FF /* PoiViewController.m */,
+				08EDFCCF1C58CED500A2B4FF /* RoutePlanningViewController.h */,
+				08EDFCD01C58CED500A2B4FF /* RoutePlanningViewController.m */,
+				08EDFCD11C58CED500A2B4FF /* RouteShareViewController.h */,
+				08EDFCD21C58CED500A2B4FF /* RouteShareViewController.m */,
+				08EDFCD31C58CED500A2B4FF /* ShareSearchBaseViewController.h */,
+				08EDFCD41C58CED500A2B4FF /* ShareSearchBaseViewController.m */,
+				08EDFCD51C58CED500A2B4FF /* TipViewController.h */,
+				08EDFCD61C58CED500A2B4FF /* TipViewController.m */,
+				08EDFCD71C58CED500A2B4FF /* WeatherViewController.h */,
+				08EDFCD81C58CED500A2B4FF /* WeatherViewController.m */,
+			);
+			path = SearchBaseControllers;
+			sourceTree = "<group>";
+		};
+		08EDFCD91C58CED500A2B4FF /* SearchDetailControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFCDA1C58CED500A2B4FF /* AddressComponentDetailViewController.h */,
+				08EDFCDB1C58CED500A2B4FF /* AddressComponentDetailViewController.m */,
+				08EDFCDC1C58CED500A2B4FF /* AMapCloudPOIDetailViewController.h */,
+				08EDFCDD1C58CED500A2B4FF /* AMapCloudPOIDetailViewController.m */,
+				08EDFCDE1C58CED500A2B4FF /* BusLineDetailViewController.h */,
+				08EDFCDF1C58CED500A2B4FF /* BusLineDetailViewController.m */,
+				08EDFCE01C58CED500A2B4FF /* BusStopDetailViewController.h */,
+				08EDFCE11C58CED500A2B4FF /* BusStopDetailViewController.m */,
+				08EDFCE21C58CED500A2B4FF /* GeoDetailViewController.h */,
+				08EDFCE31C58CED500A2B4FF /* GeoDetailViewController.m */,
+				08EDFCE41C58CED500A2B4FF /* InvertGeoDetailViewController.h */,
+				08EDFCE51C58CED500A2B4FF /* InvertGeoDetailViewController.m */,
+				08EDFCE61C58CED500A2B4FF /* PathDetailViewController.h */,
+				08EDFCE71C58CED500A2B4FF /* PathDetailViewController.m */,
+				08EDFCE81C58CED500A2B4FF /* PoiDetailViewController.h */,
+				08EDFCE91C58CED500A2B4FF /* PoiDetailViewController.m */,
+				08EDFCEA1C58CED500A2B4FF /* RoadDetailViewController.h */,
+				08EDFCEB1C58CED500A2B4FF /* RoadDetailViewController.m */,
+				08EDFCEC1C58CED500A2B4FF /* RoadInterDetailViewController.h */,
+				08EDFCED1C58CED500A2B4FF /* RoadInterDetailViewController.m */,
+				08EDFCEE1C58CED500A2B4FF /* RouteDetailViewController.h */,
+				08EDFCEF1C58CED500A2B4FF /* RouteDetailViewController.m */,
+				08EDFCF01C58CED500A2B4FF /* SegmentDetailViewController.h */,
+				08EDFCF11C58CED500A2B4FF /* SegmentDetailViewController.m */,
+				08EDFCF21C58CED500A2B4FF /* StepDetailViewController.h */,
+				08EDFCF31C58CED500A2B4FF /* StepDetailViewController.m */,
+				08EDFCF41C58CED500A2B4FF /* StreetNumberDetailViewController.h */,
+				08EDFCF51C58CED500A2B4FF /* StreetNumberDetailViewController.m */,
+				08EDFCF61C58CED500A2B4FF /* SubPoiDetailViewController.h */,
+				08EDFCF71C58CED500A2B4FF /* SubPoiDetailViewController.m */,
+				08EDFCF81C58CED500A2B4FF /* SubPoiListViewController.h */,
+				08EDFCF91C58CED500A2B4FF /* SubPoiListViewController.m */,
+				08EDFCFA1C58CED500A2B4FF /* TipDetailViewController.h */,
+				08EDFCFB1C58CED500A2B4FF /* TipDetailViewController.m */,
+				08EDFCFC1C58CED500A2B4FF /* TransitDetailViewController.h */,
+				08EDFCFD1C58CED500A2B4FF /* TransitDetailViewController.m */,
+				08EDFCFE1C58CED500A2B4FF /* WalkingDetailViewController.h */,
+				08EDFCFF1C58CED500A2B4FF /* WalkingDetailViewController.m */,
+			);
+			path = SearchDetailControllers;
+			sourceTree = "<group>";
+		};
+		08EDFD001C58CED500A2B4FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFD011C58CED500A2B4FF /* AMapTipAnnotation.h */,
+				08EDFD021C58CED500A2B4FF /* AMapTipAnnotation.m */,
+				08EDFD031C58CED500A2B4FF /* AnimatedAnnotation.h */,
+				08EDFD041C58CED500A2B4FF /* AnimatedAnnotation.m */,
+				08EDFD051C58CED500A2B4FF /* BusStopAnnotation.h */,
+				08EDFD061C58CED500A2B4FF /* BusStopAnnotation.m */,
+				08EDFD071C58CED500A2B4FF /* CloudPOIAnnotation.h */,
+				08EDFD081C58CED500A2B4FF /* CloudPOIAnnotation.m */,
+				08EDFD091C58CED500A2B4FF /* CustomOverlay.h */,
+				08EDFD0A1C58CED500A2B4FF /* CustomOverlay.m */,
+				08EDFD0B1C58CED500A2B4FF /* GeocodeAnnotation.h */,
+				08EDFD0C1C58CED500A2B4FF /* GeocodeAnnotation.m */,
+				08EDFD0D1C58CED500A2B4FF /* LineDashPolyline.h */,
+				08EDFD0E1C58CED500A2B4FF /* LineDashPolyline.m */,
+				08EDFD0F1C58CED500A2B4FF /* LocalTileOverlay.h */,
+				08EDFD101C58CED500A2B4FF /* LocalTileOverlay.m */,
+				08EDFD111C58CED500A2B4FF /* MANaviAnnotation.h */,
+				08EDFD121C58CED500A2B4FF /* MANaviAnnotation.m */,
+				08EDFD131C58CED500A2B4FF /* MANaviPolyline.h */,
+				08EDFD141C58CED500A2B4FF /* MANaviPolyline.m */,
+				08EDFD151C58CED500A2B4FF /* MANaviRoute.h */,
+				08EDFD161C58CED500A2B4FF /* MANaviRoute.m */,
+				08EDFD171C58CED500A2B4FF /* POIAnnotation.h */,
+				08EDFD181C58CED500A2B4FF /* POIAnnotation.m */,
+				08EDFD191C58CED500A2B4FF /* ReGeocodeAnnotation.h */,
+				08EDFD1A1C58CED500A2B4FF /* ReGeocodeAnnotation.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		08EDFD1B1C58CED500A2B4FF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFD1C1C58CED500A2B4FF /* CommonUtility.h */,
+				08EDFD1D1C58CED500A2B4FF /* CommonUtility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		08EDFD1E1C58CED500A2B4FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08EDFD1F1C58CED500A2B4FF /* AnimatedAnnotationView.h */,
+				08EDFD201C58CED500A2B4FF /* AnimatedAnnotationView.m */,
+				08EDFD211C58CED500A2B4FF /* CustomAnnotationView.h */,
+				08EDFD221C58CED500A2B4FF /* CustomAnnotationView.m */,
+				08EDFD231C58CED500A2B4FF /* CustomCalloutView.h */,
+				08EDFD241C58CED500A2B4FF /* CustomCalloutView.m */,
+				08EDFD251C58CED500A2B4FF /* CustomOverlayRenderer.h */,
+				08EDFD261C58CED500A2B4FF /* CustomOverlayRenderer.m */,
+				08EDFD271C58CED500A2B4FF /* MANaviAnnotationView.h */,
+				08EDFD281C58CED500A2B4FF /* MANaviAnnotationView.m */,
+				08EDFD291C58CED500A2B4FF /* MAWeatherForecastView.h */,
+				08EDFD2A1C58CED500A2B4FF /* MAWeatherForecastView.m */,
+				08EDFD2B1C58CED500A2B4FF /* MAWeatherLiveView.h */,
+				08EDFD2C1C58CED500A2B4FF /* MAWeatherLiveView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		344E9C297122EF6333F02204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB4361F69EB5AF201796D939 /* Pods-iOS-Sample.debug.xcconfig */,
+				B747F9FDB2A3B766644D249B /* Pods-iOS-Sample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -253,11 +850,19 @@
 		CB979AD5EA0F82730388B86B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0827AD711C57142300F51461 /* libz.1.2.5.tbd */,
-				0827AD6F1C5712C100F51461 /* SystemConfiguration.framework */,
+				08EDFC6D1C58CA1100A2B4FF /* CoreGraphics.framework */,
+				08EDFC3C1C58763100A2B4FF /* CoreLocation.framework */,
 				0827AD6D1C57129100F51461 /* CoreTelephony.framework */,
 				0827AD6B1C57127400F51461 /* Foundation.framework */,
-				F818D977208AA59E626253D4 /* libPods.a */,
+				08EDFC711C58CA3400A2B4FF /* OpenGLES.framework */,
+				08EDFC6F1C58CA2500A2B4FF /* QuartzCore.framework */,
+				08EDFC771C58CAB100A2B4FF /* Security.framework */,
+				0827AD6F1C5712C100F51461 /* SystemConfiguration.framework */,
+				08EDFC6B1C58C9F700A2B4FF /* UIKit.framework */,
+				08EDFC751C58CA9500A2B4FF /* libc++.tbd */,
+				08EDFC731C58CA8300A2B4FF /* libstdc++.6.0.9.tbd */,
+				08EDFC401C5876A300A2B4FF /* libz.tbd */,
+				F7B40B658183DB6E739EC6EA /* Pods_iOS_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -269,12 +874,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08425C191C54AD190007BD6B /* Build configuration list for PBXNativeTarget "iOS-Sample" */;
 			buildPhases = (
-				8BE83AFE0F5F41AE3613BC33 /* Check Pods Manifest.lock */,
+				7D825CBED76CD29FF07B64B5 /* 📦 Check Pods Manifest.lock */,
 				08425BFE1C54AD190007BD6B /* Sources */,
 				08425BFF1C54AD190007BD6B /* Frameworks */,
 				08425C001C54AD190007BD6B /* Resources */,
-				AC3EDD21D7E551142219E032 /* Embed Pods Frameworks */,
-				8271286E2E1B09BD8EF24821 /* Copy Pods Resources */,
+				FDAEE24F802B2BC6502B9252 /* 📦 Embed Pods Frameworks */,
+				1167C5265E05C5CE76B17C2E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -331,9 +936,11 @@
 			files = (
 				0827AD781C57506600F51461 /* NONBPushController.xib in Resources */,
 				0889D7DF1C5660DF0098FB02 /* ios-uiviewcontroller-lifecycle4.jpg in Resources */,
+				08EDFC341C585CFB00A2B4FF /* readme in Resources */,
 				08425C2E1C54D25A0007BD6B /* LaunchScreen.storyboard in Resources */,
 				0889D7DD1C5660DF0098FB02 /* ios-uiviewcontroller-lifecycle2.png in Resources */,
 				0889D7DE1C5660DF0098FB02 /* ios-uiviewcontroller-lifecycle3.png in Resources */,
+				08EDFC6A1C58C98700A2B4FF /* AMap.bundle in Resources */,
 				08425C2F1C54D25A0007BD6B /* Main.storyboard in Resources */,
 				0889D7BA1C55D3010098FB02 /* smiley.png in Resources */,
 				08425C361C54D2950007BD6B /* Assets.xcassets in Resources */,
@@ -345,29 +952,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8271286E2E1B09BD8EF24821 /* Copy Pods Resources */ = {
+		1167C5265E05C5CE76B17C2E /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Sample/Pods-iOS-Sample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8BE83AFE0F5F41AE3613BC33 /* Check Pods Manifest.lock */ = {
+		7D825CBED76CD29FF07B64B5 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,19 +982,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		AC3EDD21D7E551142219E032 /* Embed Pods Frameworks */ = {
+		FDAEE24F802B2BC6502B9252 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Sample/Pods-iOS-Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -397,13 +1004,100 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08EDFD531C58CED500A2B4FF /* RouteShareViewController.m in Sources */,
+				08EDFD461C58CED500A2B4FF /* CloudPOIAroundSearchViewController.m in Sources */,
+				08EDFD451C58CED500A2B4FF /* BusStopViewController.m in Sources */,
+				08EDFD6E1C58CED500A2B4FF /* CustomOverlay.m in Sources */,
+				08EDFD2D1C58CED500A2B4FF /* BaseAMap2DMapViewController.m in Sources */,
+				08EDFD351C58CED500A2B4FF /* GeodesicViewController.m in Sources */,
+				08EDFD3F1C58CED500A2B4FF /* UserLocationViewController.m in Sources */,
+				08EDFD7D1C58CED500A2B4FF /* MAWeatherForecastView.m in Sources */,
+				08EDFD661C58CED500A2B4FF /* SubPoiListViewController.m in Sources */,
+				08EDFD491C58CED500A2B4FF /* CloudPOIPolygonSearchViewController.m in Sources */,
+				08EDFD5F1C58CED500A2B4FF /* RoadDetailViewController.m in Sources */,
+				08EDFD4B1C58CED500A2B4FF /* GeoViewController.m in Sources */,
+				08EDFD751C58CED500A2B4FF /* POIAnnotation.m in Sources */,
+				08EDFD611C58CED500A2B4FF /* RouteDetailViewController.m in Sources */,
 				0827AD771C57506600F51461 /* NONBPushController.m in Sources */,
+				08EDFD711C58CED500A2B4FF /* LocalTileOverlay.m in Sources */,
+				08EDFD301C58CED500A2B4FF /* AnimatedAnnotationViewController.m in Sources */,
+				08EDFD4A1C58CED500A2B4FF /* DistrictViewController.m in Sources */,
+				08EDFD391C58CED500A2B4FF /* MapTypeViewController.m in Sources */,
+				08EDFD6D1C58CED500A2B4FF /* CloudPOIAnnotation.m in Sources */,
+				08EDFD701C58CED500A2B4FF /* LineDashPolyline.m in Sources */,
+				08EDFD381C58CED500A2B4FF /* HeatMapTileOverlayViewController.m in Sources */,
+				08EDFD651C58CED500A2B4FF /* SubPoiDetailViewController.m in Sources */,
+				08EDFD761C58CED500A2B4FF /* ReGeocodeAnnotation.m in Sources */,
+				08EDFD641C58CED500A2B4FF /* StreetNumberDetailViewController.m in Sources */,
 				089C7B801C550D050015D074 /* NONHomeTableViewController.m in Sources */,
+				08EDFD331C58CED500A2B4FF /* CustomOverlayViewController.m in Sources */,
+				08EDFD2F1C58CED500A2B4FF /* AddGestureViewController.m in Sources */,
+				08EDFD771C58CED500A2B4FF /* CommonUtility.m in Sources */,
+				08EDFD311C58CED500A2B4FF /* AnnotationViewController.m in Sources */,
+				08EDFD541C58CED500A2B4FF /* ShareSearchBaseViewController.m in Sources */,
+				08EDFD691C58CED500A2B4FF /* WalkingDetailViewController.m in Sources */,
+				08EDFD481C58CED500A2B4FF /* CloudPOILocalSearchViewController.m in Sources */,
+				08EDFD601C58CED500A2B4FF /* RoadInterDetailViewController.m in Sources */,
+				08EDFD371C58CED500A2B4FF /* GroundOverlayViewController.m in Sources */,
+				08EDFD5B1C58CED500A2B4FF /* GeoDetailViewController.m in Sources */,
+				08EDFD341C58CED500A2B4FF /* CustomUserLocationViewController.m in Sources */,
+				08EDFD621C58CED500A2B4FF /* SegmentDetailViewController.m in Sources */,
+				08EDFC631C58953600A2B4FF /* SerialLocationViewController.m in Sources */,
 				0889D7BD1C561E7B0098FB02 /* NONLifeCycleVCController.m in Sources */,
+				08EDFC611C58953600A2B4FF /* NONLocationMainViewController.m in Sources */,
 				08425C401C54D2A20007BD6B /* main.m in Sources */,
+				08EDFD4D1C58CED500A2B4FF /* LocationShareViewController.m in Sources */,
+				08EDFD431C58CED500A2B4FF /* OpenURLOnlineNavigationViewController.m in Sources */,
+				08EDFD471C58CED500A2B4FF /* CloudPOIIDSearchViewController.m in Sources */,
+				08EDFD5A1C58CED500A2B4FF /* BusStopDetailViewController.m in Sources */,
+				08EDFD5E1C58CED500A2B4FF /* PoiDetailViewController.m in Sources */,
+				08EDFD411C58CED500A2B4FF /* ScreenshotDetailViewController.m in Sources */,
+				08EDFD5C1C58CED500A2B4FF /* InvertGeoDetailViewController.m in Sources */,
+				08EDFD791C58CED500A2B4FF /* CustomAnnotationView.m in Sources */,
+				08EDFC641C58953600A2B4FF /* SingleLocationViewController.m in Sources */,
+				08EDFD6F1C58CED500A2B4FF /* GeocodeAnnotation.m in Sources */,
+				08EDFD421C58CED500A2B4FF /* OpenAMapURLRequestViewController.m in Sources */,
+				08EDFD561C58CED500A2B4FF /* WeatherViewController.m in Sources */,
+				08EDFD731C58CED500A2B4FF /* MANaviPolyline.m in Sources */,
+				08EDFD521C58CED500A2B4FF /* RoutePlanningViewController.m in Sources */,
+				08EDFD7C1C58CED500A2B4FF /* MANaviAnnotationView.m in Sources */,
+				08EDFC7B1C58CE1200A2B4FF /* BaseLocationMapViewController.m in Sources */,
+				08EDFD3E1C58CED500A2B4FF /* TrafficViewController.m in Sources */,
+				08EDFD4C1C58CED500A2B4FF /* InvertGeoViewController.m in Sources */,
+				08EDFD681C58CED500A2B4FF /* TransitDetailViewController.m in Sources */,
+				08EDFD6A1C58CED500A2B4FF /* AMapTipAnnotation.m in Sources */,
+				08EDFD4E1C58CED500A2B4FF /* NaviShareViewController.m in Sources */,
+				08EDFD551C58CED500A2B4FF /* TipViewController.m in Sources */,
+				08EDFD361C58CED500A2B4FF /* GestureAttributesViewController.m in Sources */,
+				08EDFD6B1C58CED500A2B4FF /* AnimatedAnnotation.m in Sources */,
+				08EDFD321C58CED500A2B4FF /* CustomAnnotationViewController.m in Sources */,
+				08EDFD7E1C58CED500A2B4FF /* MAWeatherLiveView.m in Sources */,
+				08EDFD7B1C58CED500A2B4FF /* CustomOverlayRenderer.m in Sources */,
+				08EDFD4F1C58CED500A2B4FF /* NearbyVewController.m in Sources */,
+				08EDFD7A1C58CED500A2B4FF /* CustomCalloutView.m in Sources */,
+				08EDFD3B1C58CED500A2B4FF /* RunningLineViewController.m in Sources */,
+				08EDFD511C58CED500A2B4FF /* PoiViewController.m in Sources */,
+				08EDFD5D1C58CED500A2B4FF /* PathDetailViewController.m in Sources */,
+				08EDFD3D1C58CED500A2B4FF /* TileOverlayViewController.m in Sources */,
+				08EDFD441C58CED500A2B4FF /* BusLineViewController.m in Sources */,
+				08EDFD401C58CED500A2B4FF /* WorldMapViewController.m in Sources */,
+				08EDFD571C58CED500A2B4FF /* AddressComponentDetailViewController.m in Sources */,
+				08EDFD591C58CED500A2B4FF /* BusLineDetailViewController.m in Sources */,
+				08EDFC621C58953600A2B4FF /* MonitoringRegionViewController.m in Sources */,
 				08425C3F1C54D2A20007BD6B /* NONAppDelegate.m in Sources */,
+				08EDFD581C58CED500A2B4FF /* AMapCloudPOIDetailViewController.m in Sources */,
+				08EDFD781C58CED500A2B4FF /* AnimatedAnnotationView.m in Sources */,
+				08EDFD721C58CED500A2B4FF /* MANaviAnnotation.m in Sources */,
+				08EDFD2E1C58CED500A2B4FF /* NONAMap2DMainViewController.m in Sources */,
+				08EDFD741C58CED500A2B4FF /* MANaviRoute.m in Sources */,
 				0889D7B81C55C8470098FB02 /* NONLifeCycleAppController.m in Sources */,
+				08EDFD6C1C58CED500A2B4FF /* BusStopAnnotation.m in Sources */,
 				089C7B851C5512C60015D074 /* NONHomeItem.m in Sources */,
+				08EDFD671C58CED500A2B4FF /* TipDetailViewController.m in Sources */,
+				08EDFD501C58CED500A2B4FF /* POIShareViewController.m in Sources */,
+				08EDFD3C1C58CED500A2B4FF /* ScreenshotViewController.m in Sources */,
+				08EDFD631C58CED500A2B4FF /* StepDetailViewController.m in Sources */,
+				08EDFD3A1C58CED500A2B4FF /* OverlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,12 +1186,16 @@
 		};
 		08425C1A1C54AD190007BD6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DB71381413B676473D701E5 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = CB4361F69EB5AF201796D939 /* Pods-iOS-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS-Sample/Vendors/AMap",
+				);
 				INFOPLIST_FILE = "iOS-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -512,12 +1210,16 @@
 		};
 		08425C1B1C54AD190007BD6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D157C66B9B040A5C7D0E5AC9 /* Pods.release.xcconfig */;
+			baseConfigurationReference = B747F9FDB2A3B766644D249B /* Pods-iOS-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS-Sample/Vendors/AMap",
+				);
 				INFOPLIST_FILE = "iOS-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

@@ -6,8 +6,12 @@
 //  Copyright © 2016年 negwiki. All rights reserved.
 //
 
+#import "APIKey.h"
 #import "BPush.h"
 #import "NONAppDelegate.h"
+
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <MAMapKit/MAMapKit.h>
 
 @interface NONAppDelegate ()
 
@@ -15,11 +19,30 @@
 
 @implementation NONAppDelegate
 
-#pragma mark Baidu push
-
+#pragma mark AMap
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
+- (void)configureAMapAPIKey {
+  if ([APIKey length] == 0) {
+    NSString *reason =
+        [NSString stringWithFormat:@"apiKey为空，请检查key是否正确设置。"];
 
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示"
+                                                    message:reason
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil, nil];
+    [alert show];
+  }
+
+  //[MAMapServices sharedServices].apiKey = (NSString *)APIKey;
+  //[AMapLocationServices sharedServices].apiKey = (NSString *)APIKey;
+}
+#pragma clang diagnostic pop
+
+#pragma mark Baidu push
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 - (void)registerBaiduPushNotification:(NSDictionary *)launchOptions {
   // iOS8 下需要使用新的 API
   if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
@@ -185,7 +208,6 @@
   NSLog(@"接收本地通知啦！！！");
   [BPush showLocalNotificationAtFront:notification identifierKey:nil];
 }
-
 #pragma clang diagnostic pop
 
 #pragma mark application lifecycle method
@@ -194,6 +216,7 @@
   NSLog(@"%@", NSStringFromSelector(_cmd));
 
   [self registerBaiduPushNotification:launchOptions];
+  [self configureAMapAPIKey];
 
   return YES;
 }
